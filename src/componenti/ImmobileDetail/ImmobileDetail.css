@@ -1,0 +1,91 @@
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .button-wrapper button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333; /* Colore delle icone */
+  }
+  
+  .button-wrapper button:hover {
+    color: #666; /* Cambia colore delle icone al passaggio del mouse */
+  }
+
+  .product-immagine{
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgba(189, 177, 177, 0.662);
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-immagine > img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .descrizione{
+        margin-top: 40px !important;
+        width: 49% !important;
+        margin-right: 2% !important;
+        margin-bottom: 30px !important;
+    }
+
+    .contenitoreProduct{
+        width: 47%; 
+        margin-right: 5%; 
+        margin-left: 2%;
+        margin-top: 30px !important;
+    }
+
+    .caroselloProdotto{
+        display: 'flex' !important;
+        justify-content: 'center' !important;
+        margin-top: '10px' !important
+    }
+
+    .immagineLista {
+        height: 150px !important; 
+        width: 'auto' !important; 
+        margin-right: 10px !important
+    }
+
+   /* Schermi più piccoli */
+@media only screen and (max-width: 860px) {
+    .contenitoreProduct{
+        width: 100vh !important;
+        justify-content: center !important;
+    }
+
+    .product-immagine {
+      height: auto;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid rgba(189, 177, 177, 0.662);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center !important;
+    }
+  
+    .product-immagine > img {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .descrizione {
+      width: 100vh !important; /* Modifica per utilizzare tutto lo spazio disponibile */
+      margin-top: 20px !important; /* Aggiungi uno spazio superiore */
+    }
+  }
+  
+  

@@ -1,0 +1,56 @@
+.nav-pills .nav-item .btn {
+    color: var(--dark);
+}
+
+.nav-pills .nav-item .btn:hover,
+.nav-pills .nav-item .btn.active {
+    color: #FFFFFF;
+}
+
+.property-item img{
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    height: 250px;
+    margin-left: 5px;
+    border: 1px solid rgba(189, 177, 177, 0.662);
+    overflow: hidden;
+    transition: .5s;
+}
+
+.property-item > img {
+    transition: .5s;
+    height: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+    .property-item img{
+        box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+        border: 1px solid rgba(189, 177, 177, 0.662);
+        overflow: hidden;
+        transition: .5s;
+    }
+    
+    .property-item  img {
+        transition: .5s;
+        height: auto;
+        width:100vh;
+    }
+}
+
+.property-item:hover img {
+    transform: scale(1.1);
+}
+
+.property-item .border-top {
+    border-top: 1px dashed rgba(65, 27, 255, 0.3) !important;
+    border-left: 1px dashed rgba(65, 27, 255, 0.3) !important;
+    border-bottom: 1px dashed rgba(65, 27, 255, 0.3) !important;
+}
+
+.property-item .border-end {
+    border-right: 1px dashed rgba(65, 27, 255, 0.3) !important;
+}
+
+.property-item{
+    background-color: rgba(33, 37, 41, 0.555);
+}
+

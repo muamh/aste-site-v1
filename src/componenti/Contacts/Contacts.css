@@ -1,0 +1,21 @@
+#contenitoreContatti {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+p {
+    color: #ccc;
+}
+
+iframe {
+    margin: 20px auto; /* Imposta il margin a "auto" per centrare l'iframe */
+    display: block;
+}
